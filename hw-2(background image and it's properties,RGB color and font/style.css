@@ -1,0 +1,93 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-image: url(images/nature.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-family: "Momo Signature"
+}
+form{
+    width: 300px;
+    background-color: brown;
+    padding: 20px;
+    border-radius: 30px;
+}
+h1{
+    text-align: center;
+}
+input{
+    width: 100%;
+    border-radius: 10px;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+.button{
+    text-align: center;
+}
+.button button{
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: 7px;
+    background-color:rgba(16, 122, 141, 0.484);
+    opacity: 1;
+   
+    
+    
+}
+.button button:hover{
+    background-color: brown;
+}
+label{
+    font-size: 16px;
+    margin-bottom: 10px;
+   display: inline;
+}
+textarea{
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+.checkbox input{
+    width: 10px;
+    
+}
+select{
+    width: 100%;
+    padding: 4px;
+    border-radius: 10px;
+    margin-bottom: 7px;
+}
+.gender{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.form_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_row label{
+    width: 30%;
+    font: 13px;
+}
+.form_row input{
+    width: 70%;
+   color:aqua;
+}
+.maleicon{
+    display: flex;
+    justify-content: center;
+    align-items: ;
+    margin-left: 5px;
+}
+.maleicon i{
+    margin-left: 5px;
+}
