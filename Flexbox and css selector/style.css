@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* css flexbox started */
+.container{
+          display: flex;
+          justify-content:space-evenly;
+          height: 200px;
+        
+          
+
+}
+.one{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+   margin: 2px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+/* css flexbox end */
+/* css selector start  */
+h1{
+    background-color: red;
+    /* simple selector name id class */
+}
+
+/* combinator selector:
+1/descendent selector
+2/child selector
+3/adjacent selector
+4/General sibling selector
+
+*/
+/* 1/descendent selector */
+div h1{
+    background-color: rgb(160, 154, 207);
+    /* descendent selector */
+}
+div > h1{
+    background-color: aqua;
+    /* child selector */
+}
+
+div + p{
+    background-color: brown;
+    /* adjacent sibling selector */
+}
+
+
+div ~ p{
+    background-color: rgb(107, 74, 139);
+    /* general sibling selector */
+}
+button{
+    background-color: aqua;
+    cursor: pointer;
+    padding: 5px 40px;
+    border-radius: 10px;
+}
+button:hover{
+    transition: 1s ease;
+    background-color: rgb(22, 188, 214); ;
+    /* sudu class selector */
+     
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    color: rgb(204, 181, 181);
+}
+
+a:active{
+    color: black;
+    transition: 0.8s ease-in-out;
+    /* psedu class selector */
+}
+
+
+
+
+/* css selector end */
