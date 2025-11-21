@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div{
+    background:linear-gradient(to right bottom, red, blue,green);
+    margin: auto;
+    width: 200px;
+    height: 200px;
+   border-radius: 10px;
+   
+    
+}
+div:hover{
+    /* transform: rotate(-360deg); */
+   transform: skewX(-45deg);
+    transition: .7s;
+}
+/* linear gradiant direction by default top to bottom thake */
+/* one color transfer into another color it's called transition */
+/* transform,rotate,scale */
+
+/* transform element will move rotate:eliment will rotate scale: element width will increase according to comment skew bakanor jonno */ 
